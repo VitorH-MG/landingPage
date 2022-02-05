@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(rgb(128, 126, 126), black);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 72px;
+}
+
+.cabecalhoMenu {
+    display: flex;
+    gap: 50px;
+}
+
+.cabecalhoItem{
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.conteudo{
+    border-top: 0.4px solid black;
+}
+
+.conteudoPrincipal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudoEscrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    color: black;
+    font-size: 30px;
+}
+
+.subtitulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 300;
+    color: black;
+    font-size: 20px;
+}
+
+.botaoComprar {
+    background-color: white;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Righteous', cursive;
+    font-weight: 300;
+    font-size: 20px;
+    color: black;
+}
+
+.botaoComprar:hover {
+background-color: rgba(236, 214, 196, 0.53);
+}
+
+.imagemAlexa{
+    height: 430px;
+}
+
+.conteudoSecundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+
+.titulo2 {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    color: white;
+    font-size: 30px;
+}
+
+.descricaoProduto {
+    font-family: 'Righteous', cursive;
+    font-weight: 200;
+    font-size: 18px;
+    color: white;
+    
+}
+
+.conteudoCompra {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+fieldset {
+    border: 0;
+}
+
+input, select, textarea, button {
+    border-radius: 0;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: white;
+    display: block;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.campo input:focus, .campo select:focus, .campotextarea:focus{
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.botaoFormulario{
+    margin-top: 20px;
+    background-color: white;
+    width: 90px;
+    height: 40px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    font-family: 'Righteous', cursive;
+    font-size: 12px;
+    color: black;
+}
+
+.botaoFormulario:hover{
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.rodape {
+    padding: 20px;
+    border-top: 0.4px solid white;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.redesSociais{
+    height: 20px;
+}
+
+
+
